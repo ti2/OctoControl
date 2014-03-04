@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA73884E18C5CADF000AB2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73884D18C5CADF000AB2E9 /* Foundation.framework */; };
+		EA73885018C5CADF000AB2E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73884F18C5CADF000AB2E9 /* CoreGraphics.framework */; };
+		EA73885218C5CADF000AB2E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73885118C5CADF000AB2E9 /* UIKit.framework */; };
+		EA73885818C5CADF000AB2E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA73885618C5CADF000AB2E9 /* InfoPlist.strings */; };
+		EA73885A18C5CADF000AB2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73885918C5CADF000AB2E9 /* main.m */; };
+		EA73885E18C5CADF000AB2E9 /* OC_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73885D18C5CADF000AB2E9 /* OC_AppDelegate.m */; };
+		EA73886118C5CADF000AB2E9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA73885F18C5CADF000AB2E9 /* Main_iPhone.storyboard */; };
+		EA73886418C5CADF000AB2E9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA73886218C5CADF000AB2E9 /* Main_iPad.storyboard */; };
+		EA73886718C5CADF000AB2E9 /* OC_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73886618C5CADF000AB2E9 /* OC_ViewController.m */; };
+		EA73886918C5CADF000AB2E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA73886818C5CADF000AB2E9 /* Images.xcassets */; };
+		EA73887018C5CADF000AB2E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73886F18C5CADF000AB2E9 /* XCTest.framework */; };
+		EA73887118C5CADF000AB2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73884D18C5CADF000AB2E9 /* Foundation.framework */; };
+		EA73887218C5CADF000AB2E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA73885118C5CADF000AB2E9 /* UIKit.framework */; };
+		EA73887A18C5CADF000AB2E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA73887818C5CADF000AB2E9 /* InfoPlist.strings */; };
+		EA73887C18C5CADF000AB2E9 /* OctoControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73887B18C5CADF000AB2E9 /* OctoControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA73887318C5CADF000AB2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA73884218C5CADF000AB2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA73884918C5CADF000AB2E9;
+			remoteInfo = OctoControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA73884A18C5CADF000AB2E9 /* OctoControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA73884D18C5CADF000AB2E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA73884F18C5CADF000AB2E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA73885118C5CADF000AB2E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA73885518C5CADF000AB2E9 /* OctoControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoControl-Info.plist"; sourceTree = "<group>"; };
+		EA73885718C5CADF000AB2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA73885918C5CADF000AB2E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA73885B18C5CADF000AB2E9 /* OctoControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctoControl-Prefix.pch"; sourceTree = "<group>"; };
+		EA73885C18C5CADF000AB2E9 /* OC_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_AppDelegate.h; sourceTree = "<group>"; };
+		EA73885D18C5CADF000AB2E9 /* OC_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_AppDelegate.m; sourceTree = "<group>"; };
+		EA73886018C5CADF000AB2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EA73886318C5CADF000AB2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EA73886518C5CADF000AB2E9 /* OC_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_ViewController.h; sourceTree = "<group>"; };
+		EA73886618C5CADF000AB2E9 /* OC_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_ViewController.m; sourceTree = "<group>"; };
+		EA73886818C5CADF000AB2E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA73886E18C5CADF000AB2E9 /* OctoControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA73886F18C5CADF000AB2E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA73887718C5CADF000AB2E9 /* OctoControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoControlTests-Info.plist"; sourceTree = "<group>"; };
+		EA73887918C5CADF000AB2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA73887B18C5CADF000AB2E9 /* OctoControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctoControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA73884718C5CADF000AB2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73885018C5CADF000AB2E9 /* CoreGraphics.framework in Frameworks */,
+				EA73885218C5CADF000AB2E9 /* UIKit.framework in Frameworks */,
+				EA73884E18C5CADF000AB2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA73886B18C5CADF000AB2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73887018C5CADF000AB2E9 /* XCTest.framework in Frameworks */,
+				EA73887218C5CADF000AB2E9 /* UIKit.framework in Frameworks */,
+				EA73887118C5CADF000AB2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA73884118C5CADF000AB2E9 = {
+			isa = PBXGroup;
+			children = (
+				EA73885318C5CADF000AB2E9 /* OctoControl */,
+				EA73887518C5CADF000AB2E9 /* OctoControlTests */,
+				EA73884C18C5CADF000AB2E9 /* Frameworks */,
+				EA73884B18C5CADF000AB2E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA73884B18C5CADF000AB2E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA73884A18C5CADF000AB2E9 /* OctoControl.app */,
+				EA73886E18C5CADF000AB2E9 /* OctoControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA73884C18C5CADF000AB2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA73884D18C5CADF000AB2E9 /* Foundation.framework */,
+				EA73884F18C5CADF000AB2E9 /* CoreGraphics.framework */,
+				EA73885118C5CADF000AB2E9 /* UIKit.framework */,
+				EA73886F18C5CADF000AB2E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA73885318C5CADF000AB2E9 /* OctoControl */ = {
+			isa = PBXGroup;
+			children = (
+				EA73885C18C5CADF000AB2E9 /* OC_AppDelegate.h */,
+				EA73885D18C5CADF000AB2E9 /* OC_AppDelegate.m */,
+				EA73885F18C5CADF000AB2E9 /* Main_iPhone.storyboard */,
+				EA73886218C5CADF000AB2E9 /* Main_iPad.storyboard */,
+				EA73886518C5CADF000AB2E9 /* OC_ViewController.h */,
+				EA73886618C5CADF000AB2E9 /* OC_ViewController.m */,
+				EA73886818C5CADF000AB2E9 /* Images.xcassets */,
+				EA73885418C5CADF000AB2E9 /* Supporting Files */,
+			);
+			path = OctoControl;
+			sourceTree = "<group>";
+		};
+		EA73885418C5CADF000AB2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA73885518C5CADF000AB2E9 /* OctoControl-Info.plist */,
+				EA73885618C5CADF000AB2E9 /* InfoPlist.strings */,
+				EA73885918C5CADF000AB2E9 /* main.m */,
+				EA73885B18C5CADF000AB2E9 /* OctoControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA73887518C5CADF000AB2E9 /* OctoControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA73887B18C5CADF000AB2E9 /* OctoControlTests.m */,
+				EA73887618C5CADF000AB2E9 /* Supporting Files */,
+			);
+			path = OctoControlTests;
+			sourceTree = "<group>";
+		};
+		EA73887618C5CADF000AB2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA73887718C5CADF000AB2E9 /* OctoControlTests-Info.plist */,
+				EA73887818C5CADF000AB2E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA73884918C5CADF000AB2E9 /* OctoControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA73887F18C5CADF000AB2E9 /* Build configuration list for PBXNativeTarget "OctoControl" */;
+			buildPhases = (
+				EA73884618C5CADF000AB2E9 /* Sources */,
+				EA73884718C5CADF000AB2E9 /* Frameworks */,
+				EA73884818C5CADF000AB2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OctoControl;
+			productName = OctoControl;
+			productReference = EA73884A18C5CADF000AB2E9 /* OctoControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA73886D18C5CADF000AB2E9 /* OctoControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA73888218C5CADF000AB2E9 /* Build configuration list for PBXNativeTarget "OctoControlTests" */;
+			buildPhases = (
+				EA73886A18C5CADF000AB2E9 /* Sources */,
+				EA73886B18C5CADF000AB2E9 /* Frameworks */,
+				EA73886C18C5CADF000AB2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA73887418C5CADF000AB2E9 /* PBXTargetDependency */,
+			);
+			name = OctoControlTests;
+			productName = OctoControlTests;
+			productReference = EA73886E18C5CADF000AB2E9 /* OctoControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA73884218C5CADF000AB2E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OC_;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dmitry Kurunov";
+				TargetAttributes = {
+					EA73886D18C5CADF000AB2E9 = {
+						TestTargetID = EA73884918C5CADF000AB2E9;
+					};
+				};
+			};
+			buildConfigurationList = EA73884518C5CADF000AB2E9 /* Build configuration list for PBXProject "OctoControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA73884118C5CADF000AB2E9;
+			productRefGroup = EA73884B18C5CADF000AB2E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA73884918C5CADF000AB2E9 /* OctoControl */,
+				EA73886D18C5CADF000AB2E9 /* OctoControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA73884818C5CADF000AB2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73886418C5CADF000AB2E9 /* Main_iPad.storyboard in Resources */,
+				EA73886918C5CADF000AB2E9 /* Images.xcassets in Resources */,
+				EA73886118C5CADF000AB2E9 /* Main_iPhone.storyboard in Resources */,
+				EA73885818C5CADF000AB2E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA73886C18C5CADF000AB2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73887A18C5CADF000AB2E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA73884618C5CADF000AB2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73885E18C5CADF000AB2E9 /* OC_AppDelegate.m in Sources */,
+				EA73885A18C5CADF000AB2E9 /* main.m in Sources */,
+				EA73886718C5CADF000AB2E9 /* OC_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA73886A18C5CADF000AB2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA73887C18C5CADF000AB2E9 /* OctoControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA73887418C5CADF000AB2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA73884918C5CADF000AB2E9 /* OctoControl */;
+			targetProxy = EA73887318C5CADF000AB2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA73885618C5CADF000AB2E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA73885718C5CADF000AB2E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA73885F18C5CADF000AB2E9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA73886018C5CADF000AB2E9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EA73886218C5CADF000AB2E9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA73886318C5CADF000AB2E9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EA73887818C5CADF000AB2E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA73887918C5CADF000AB2E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA73887D18C5CADF000AB2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA73887E18C5CADF000AB2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA73888018C5CADF000AB2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoControl/OctoControl-Prefix.pch";
+				INFOPLIST_FILE = "OctoControl/OctoControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA73888118C5CADF000AB2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoControl/OctoControl-Prefix.pch";
+				INFOPLIST_FILE = "OctoControl/OctoControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA73888318C5CADF000AB2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctoControl.app/OctoControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoControl/OctoControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OctoControlTests/OctoControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA73888418C5CADF000AB2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctoControl.app/OctoControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OctoControl/OctoControl-Prefix.pch";
+				INFOPLIST_FILE = "OctoControlTests/OctoControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA73884518C5CADF000AB2E9 /* Build configuration list for PBXProject "OctoControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA73887D18C5CADF000AB2E9 /* Debug */,
+				EA73887E18C5CADF000AB2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA73887F18C5CADF000AB2E9 /* Build configuration list for PBXNativeTarget "OctoControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA73888018C5CADF000AB2E9 /* Debug */,
+				EA73888118C5CADF000AB2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA73888218C5CADF000AB2E9 /* Build configuration list for PBXNativeTarget "OctoControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA73888318C5CADF000AB2E9 /* Debug */,
+				EA73888418C5CADF000AB2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA73884218C5CADF000AB2E9 /* Project object */;
+}
